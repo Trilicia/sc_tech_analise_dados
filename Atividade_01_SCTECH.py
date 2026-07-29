@@ -1,7 +1,7 @@
 import csv
 import os
 from datetime import date, datetime, timedelta
-#teste#
+
 
 ARQUIVO_CSV = "registros_pontos.csv"
 CAMPOS = ["matricula", "nome", "data", "entrada", "saida_almoco", "retorno_almoco", "saida"]
