@@ -74,3 +74,17 @@ Relacionamento entre cursos e matriculas:
 Consequentemente, alunos e cursos possuem um relacionamento N:N,
 resolvido pela tabela intermediária matriculas.
 */
+/*
+ETAPA 6 — TERCEIRA FORMA NORMAL (3FN)
+
+O modelo está na Terceira Forma Normal porque:
+
+1. Cada atributo armazena apenas um valor.
+2. Todas as tabelas possuem uma chave primária.
+3. Todos os atributos dependem diretamente da chave primária.
+4. Não existem dependências entre atributos que não sejam chaves.
+5. Os dados dos alunos e cursos não são repetidos na tabela matriculas.
+
+A tabela matriculas armazena somente os identificadores do aluno
+e do curso, além dos dados específicos da própria matrícula.
+*/
