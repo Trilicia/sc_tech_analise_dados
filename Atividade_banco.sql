@@ -47,3 +47,14 @@ Tabela matriculas:
 O CPF não será utilizado como chave primária.
 Ele receberá a restrição UNIQUE para impedir cadastros duplicados.
 */
+/*
+ETAPA 4 — CHAVES ESTRANGEIRAS
+
+A tabela matriculas terá duas chaves estrangeiras:
+
+- id_aluno referencia alunos(id_aluno)
+- id_curso referencia cursos(id_curso)
+
+As chaves estrangeiras garantem que uma matrícula somente seja
+registrada para alunos e cursos que já existem no banco.
+*/
