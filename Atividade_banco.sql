@@ -32,3 +32,18 @@ Tabela matriculas:
 - id_curso
 - data_matricula
 */
+/*
+ETAPA 3 — CHAVES PRIMÁRIAS
+
+Tabela alunos:
+- PRIMARY KEY: id_aluno
+
+Tabela cursos:
+- PRIMARY KEY: id_curso
+
+Tabela matriculas:
+- PRIMARY KEY: id_matricula
+
+O CPF não será utilizado como chave primária.
+Ele receberá a restrição UNIQUE para impedir cadastros duplicados.
+*/
