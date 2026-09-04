@@ -11,3 +11,24 @@ A tabela matriculas conecta alunos e cursos, resolvendo o
 relacionamento muitos para muitos existente entre eles.
 */
 
+/*
+ETAPA 2 — ATRIBUTOS
+
+Tabela alunos:
+- id_aluno
+- nome
+- cpf
+- email
+- data_nascimento
+
+Tabela cursos:
+- id_curso
+- nome
+- carga_horaria
+
+Tabela matriculas:
+- id_matricula
+- id_aluno
+- id_curso
+- data_matricula
+*/
