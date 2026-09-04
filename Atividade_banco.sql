@@ -58,3 +58,19 @@ A tabela matriculas terá duas chaves estrangeiras:
 As chaves estrangeiras garantem que uma matrícula somente seja
 registrada para alunos e cursos que já existem no banco.
 */
+/*
+ETAPA 5 — CARDINALIDADES
+
+Relacionamento entre alunos e matriculas:
+- Um aluno pode possuir várias matrículas.
+- Cada matrícula pertence a apenas um aluno.
+- Cardinalidade: 1:N.
+
+Relacionamento entre cursos e matriculas:
+- Um curso pode possuir várias matrículas.
+- Cada matrícula pertence a apenas um curso.
+- Cardinalidade: 1:N.
+
+Consequentemente, alunos e cursos possuem um relacionamento N:N,
+resolvido pela tabela intermediária matriculas.
+*/
